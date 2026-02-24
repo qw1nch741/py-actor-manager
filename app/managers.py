@@ -38,5 +38,5 @@ class ActorManager():
 
 
 if __name__ == "__main__":
-    manager = Actor("cinema.sqlite", "actors")
+    manager = ActorManager("cinema.sqlite", "actors")
     manager.all()
